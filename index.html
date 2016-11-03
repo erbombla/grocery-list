@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/skeleton.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.1.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Grocery Store</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>E&G Grocers</h1>
+      <hr>
+      <h3><em>Let us do the shopping!</em></h3>
+        <div class="row">
+          <div class="six columns">
+            <h2>Items</h2>
+              <label class="checkbox">
+                <input type="checkbox">
+                <span class="label-body">Eggs - $1.00</span>
+              </label>
+              <label class="checkbox">
+                <input type="checkbox">
+                <span class="label-body">Vegetables - $2.00</span>
+              </label>
+              <label class="checkbox">
+                <input type="checkbox">
+                <span class="label-body">Protein - $3.00</span>
+              </label>
+              <label class="checkbox">
+                <input type="checkbox">
+                <span class="label-body">Fruit - $4.00</span>
+              </label>
+              <label class="checkbox">
+                <input type="checkbox">
+                <span class="label-body">Milk - $5.00</span>
+              </label>
+              <label class="checkbox">
+                <input type="checkbox">
+                <span class="label-body">Cola - $6.00</span>
+              </label>
+              <input class="button-primary" type="submit" value="Add to Cart" id ="add">
+          </div>
+          <div class="six columns">
+            <h2>Cart</h2>
+              <input class="button-primary" type="submit" value="Checkout" id="checkout">
+          </div>
+        </div>
+        <div id = "reciept">
+          <h2>Reciept</h2>
+        </div>
+      </div>
+  </body>
+</html>
